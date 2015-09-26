@@ -22,7 +22,7 @@ public class GameBoard {
 	public static int playOutsX = 3000; //adjust iterations for computer player 1
 	public static int playOutsO = 3000; //adjust iterations for computer player 2
 	public static int bestAI = 0;
-	public static boolean humanPlayer1 = false;
+	public static boolean humanPlayer1 = true;
 	public static boolean humanPlayer2 = false;
 	static Scanner play = new Scanner(System.in);
 	

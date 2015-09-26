@@ -90,7 +90,7 @@ public class Node
 				{
 					//GameBoard.buildBoard(visitedNode.boardState, GameBoard.turn);
 					visitedNode.nodeVisits++;
-					visitedNode.nodeWins+=1; //adds value for a win
+					visitedNode.nodeWins+=2; //adds value for a win
 				}
 			}
 			
@@ -124,7 +124,7 @@ public class Node
 				{
 					//GameBoard.buildBoard(visitedNode.boardState, GameBoard.turn);
 					visitedNode.nodeVisits++;
-					visitedNode.nodeWins+=1; //adds value for a win
+					visitedNode.nodeWins+=2; //adds value for a win
 				}
 			}
 			
